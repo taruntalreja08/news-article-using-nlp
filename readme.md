@@ -83,13 +83,15 @@ The information gotten from the api call will be displayed on the html page.
 ## Offline Functionality
 The project have service workers set up in webpack. 
 
+
+## Home page
+The home page built for this project is a simple one. It has a form with a single filed which receives an input. This input is checked for valid url. A helpful error message is displayed for invalid url. If the url is valid, then an api call is performed and the result displayed on the page.
+
+![](images/home_page_screenshot.png)
+
 ## Testing
 
 The project has Jest installed and can be run using `npm run test`. 
 
 ![](images/tests_screenshot.png)
 
-## Home page
-The home page built for this project is a simple one. It has a form with a single filed which receives an input. This input is checked for valid url. A helpful error message is displayed for invalid url. If the url is valid, then an api call is performed and the result displayed on the page.
-
-![](images/home_page_screenshot.png)
